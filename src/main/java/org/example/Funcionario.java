@@ -1,6 +1,6 @@
 package org.example;
 
-public class Funcionario {
+public abstract class Funcionario {
     private String nome;
     private float salario;
     private String cpf;
@@ -47,4 +47,5 @@ public class Funcionario {
         System.out.println("Cpf: " + cpf);
     }
 
+    public abstract void falar();
 }

@@ -39,5 +39,9 @@ public class Desenvolvedor extends Funcionario {
         System.out.println("Framework : " + frameWork);
     }
 
-    //Polimorfismo-Sobrecarga (Overload).
+    @Override
+    public void falar() {
+        System.out.println("Estou falando : sou um funcionário");
+
+    }
 }
